@@ -5,7 +5,7 @@ export default function Item({ item, onDeleteItem, onToggleItem }) {
       <span style={item.checked ? { textDecoration: 'line-through' } : {}}>
         {item.quantity} {item.name}
       </span>
-      <button onClick={() => onDeleteItem(item.id)} className="ms-5 text-2xl text-gray-400 font-bold">
+      <button onClick={() => onDeleteItem(item.id)} className="ms-8 text-2xl text-gray-200 font-bold ">
         &times;
       </button>
     </li>

@@ -1,7 +1,12 @@
 [
   {
     "id": "1",
-    "name": "Sleep",
+    "name": "Study",
     "checked": true
+  },
+  {
+    "id": "2",
+    "name": "Work on project",
+    "checked": false
   }
 ]
