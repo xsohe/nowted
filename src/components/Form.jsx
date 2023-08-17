@@ -20,7 +20,7 @@ export default function Form({ onAddItem }) {
   }
 
   return (
-    <div className="flex relative justify-between sm:max-lg">
+    <div className="flex items-center justify-between sm:max-lg">
       <h1 className="text-xl md:text-2xl underline ">What is your main focus today?</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Write note" className="border border-b-gray-400  py-1 m-2 border-transparent outline-none" autoFocus value={name} onChange={(e) => setName(e.target.value)} />
