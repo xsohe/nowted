@@ -26,7 +26,7 @@ export default function Form({ onAddItem }) {
       </Fade>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Write note" className="border border-b-gray-400  py-1 m-2 border-transparent outline-none" autoFocus value={name} onChange={(e) => setName(e.target.value)} />
-        <button className=" border-b-black bg-black text-white px-3 py-1 border">Add</button>
+        <button className=" border-b-black bg-black text-white px-3 py-1 border hover:bg-gray-700">Add</button>
       </form>
     </div>
   );
