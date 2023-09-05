@@ -4,7 +4,7 @@ export default function Footer() {
       <hr className="pb-4" />
       Source code on{' '}
       <a href="https://github.com/xsohe" className="underline text-blue-600 ">
-        Gihub!
+        Github!
       </a>
     </footer>
   );
